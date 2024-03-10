@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        #title{
+            font-size: 35px;
+            text-align: center;
+            color: green;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+        #subtitle{
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-weight: lighter;
+            margin-top: 10px;
+        }
+        #subsubtitle{
+            font-size: 15px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+        #input{
+            border: 1px solid rgba(0, 128, 0, 0.356);
+            width: 500px;
+            padding-left: 10px;
+        }
+        #button{
+            margin-left: 10px;
+            width: 150px;
+            height: 40px;
+            color: white;
+            background-color: rgba(15, 173, 15, 0.788);
+            border: 1px solid white;
+            font-weight: lighter;
+        }
+        .input-container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vh;
+            margin: auto;
+        }
+        .number {
+            font-size: 40px;
+            color: white;
+            width: 100px;
+            height: 50px;
+            margin: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .green {
+            background-color: rgb(40, 175, 40);
+        }
+        .yellow {
+            background-color: rgb(223, 201, 7);
+        }
+        .red {
+            background-color: rgba(219, 9, 9, 0.774);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title"></h1>
+
+    <h2 id="subtitle"></h2>
+
+    <h3 id="subsubtitle"></h3>
+
+    <div class="input-container">
+        
+        <input type="text" id="input" class="both" placeholder="Enter the number of divs">
+       
+        <button id="button" class="both">Generate Numbers</button>
+   
+    </div>
+
+    <div id="numberContainer"></div>
+  
+    <div class="container"></div>
+
+    <script type="module" src="./Exercice_lvl_1.js"></script>
+
+</body>
+</html>
